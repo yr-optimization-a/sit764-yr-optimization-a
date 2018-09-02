@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: aiy-projects-python
+Version: 1.1
+Summary: AIY Python API
+Home-page: https://aiyprojects.withgoogle.com/
+Author: AIY Team
+Author-email: support-aiyprojects@google.com
+License: Apache 2
+Project-URL: GitHub: repo, https://github.com/google/aiyprojects-raspbian
+Project-URL: GitHub: issues, https://github.com/google/aiyprojects-raspbian/issues
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5.0
