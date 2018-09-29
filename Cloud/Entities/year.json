@@ -1,0 +1,765 @@
+{
+  "id": "30b1009d-1e3f-4fad-bcc9-cc1c25735d3f",
+  "name": "year",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "2025",
+      "synonyms": [
+        "2025"
+      ]
+    },
+    {
+      "value": "2024",
+      "synonyms": [
+        "2024"
+      ]
+    },
+    {
+      "value": "2023",
+      "synonyms": [
+        "2023"
+      ]
+    },
+    {
+      "value": "2022",
+      "synonyms": [
+        "2022"
+      ]
+    },
+    {
+      "value": "2021",
+      "synonyms": [
+        "2021"
+      ]
+    },
+    {
+      "value": "2020",
+      "synonyms": [
+        "2020"
+      ]
+    },
+    {
+      "value": "2019",
+      "synonyms": [
+        "2019"
+      ]
+    },
+    {
+      "value": "2018",
+      "synonyms": [
+        "2018"
+      ]
+    },
+    {
+      "value": "2017",
+      "synonyms": [
+        "2017"
+      ]
+    },
+    {
+      "value": "2016",
+      "synonyms": [
+        "2016"
+      ]
+    },
+    {
+      "value": "2015",
+      "synonyms": [
+        "2015"
+      ]
+    },
+    {
+      "value": "2014",
+      "synonyms": [
+        "2014"
+      ]
+    },
+    {
+      "value": "2013",
+      "synonyms": [
+        "2013"
+      ]
+    },
+    {
+      "value": "2012",
+      "synonyms": [
+        "2012"
+      ]
+    },
+    {
+      "value": "2011",
+      "synonyms": [
+        "2011"
+      ]
+    },
+    {
+      "value": "2010",
+      "synonyms": [
+        "2010"
+      ]
+    },
+    {
+      "value": "2009",
+      "synonyms": [
+        "2009"
+      ]
+    },
+    {
+      "value": "2008",
+      "synonyms": [
+        "2008"
+      ]
+    },
+    {
+      "value": "2007",
+      "synonyms": [
+        "2007"
+      ]
+    },
+    {
+      "value": "2006",
+      "synonyms": [
+        "2006"
+      ]
+    },
+    {
+      "value": "2005",
+      "synonyms": [
+        "2005"
+      ]
+    },
+    {
+      "value": "2004",
+      "synonyms": [
+        "2004"
+      ]
+    },
+    {
+      "value": "2003",
+      "synonyms": [
+        "2003"
+      ]
+    },
+    {
+      "value": "2002",
+      "synonyms": [
+        "2002"
+      ]
+    },
+    {
+      "value": "2001",
+      "synonyms": [
+        "2001"
+      ]
+    },
+    {
+      "value": "2000",
+      "synonyms": [
+        "2000"
+      ]
+    },
+    {
+      "value": "1999",
+      "synonyms": [
+        "1999"
+      ]
+    },
+    {
+      "value": "1998",
+      "synonyms": [
+        "1998"
+      ]
+    },
+    {
+      "value": "1997",
+      "synonyms": [
+        "1997"
+      ]
+    },
+    {
+      "value": "1996",
+      "synonyms": [
+        "1996"
+      ]
+    },
+    {
+      "value": "1995",
+      "synonyms": [
+        "1995"
+      ]
+    },
+    {
+      "value": "1994",
+      "synonyms": [
+        "1994"
+      ]
+    },
+    {
+      "value": "1993",
+      "synonyms": [
+        "1993"
+      ]
+    },
+    {
+      "value": "1992",
+      "synonyms": [
+        "1992"
+      ]
+    },
+    {
+      "value": "1991",
+      "synonyms": [
+        "1991"
+      ]
+    },
+    {
+      "value": "1990",
+      "synonyms": [
+        "1990"
+      ]
+    },
+    {
+      "value": "1989",
+      "synonyms": [
+        "1989"
+      ]
+    },
+    {
+      "value": "1988",
+      "synonyms": [
+        "1988"
+      ]
+    },
+    {
+      "value": "1987",
+      "synonyms": [
+        "1987"
+      ]
+    },
+    {
+      "value": "1986",
+      "synonyms": [
+        "1986"
+      ]
+    },
+    {
+      "value": "1985",
+      "synonyms": [
+        "1985"
+      ]
+    },
+    {
+      "value": "1984",
+      "synonyms": [
+        "1984"
+      ]
+    },
+    {
+      "value": "1983",
+      "synonyms": [
+        "1983"
+      ]
+    },
+    {
+      "value": "1982",
+      "synonyms": [
+        "1982"
+      ]
+    },
+    {
+      "value": "1981",
+      "synonyms": [
+        "1981"
+      ]
+    },
+    {
+      "value": "1980",
+      "synonyms": [
+        "1980"
+      ]
+    },
+    {
+      "value": "1979",
+      "synonyms": [
+        "1979"
+      ]
+    },
+    {
+      "value": "1978",
+      "synonyms": [
+        "1978"
+      ]
+    },
+    {
+      "value": "1977",
+      "synonyms": [
+        "1977"
+      ]
+    },
+    {
+      "value": "1976",
+      "synonyms": [
+        "1976"
+      ]
+    },
+    {
+      "value": "1975",
+      "synonyms": [
+        "1975"
+      ]
+    },
+    {
+      "value": "1974",
+      "synonyms": [
+        "1974"
+      ]
+    },
+    {
+      "value": "1973",
+      "synonyms": [
+        "1973"
+      ]
+    },
+    {
+      "value": "1972",
+      "synonyms": [
+        "1972"
+      ]
+    },
+    {
+      "value": "1971",
+      "synonyms": [
+        "1971"
+      ]
+    },
+    {
+      "value": "1970",
+      "synonyms": [
+        "1970"
+      ]
+    },
+    {
+      "value": "1969",
+      "synonyms": [
+        "1969"
+      ]
+    },
+    {
+      "value": "1968",
+      "synonyms": [
+        "1968"
+      ]
+    },
+    {
+      "value": "1967",
+      "synonyms": [
+        "1967"
+      ]
+    },
+    {
+      "value": "1966",
+      "synonyms": [
+        "1966"
+      ]
+    },
+    {
+      "value": "1965",
+      "synonyms": [
+        "1965"
+      ]
+    },
+    {
+      "value": "1964",
+      "synonyms": [
+        "1964"
+      ]
+    },
+    {
+      "value": "1963",
+      "synonyms": [
+        "1963"
+      ]
+    },
+    {
+      "value": "1962",
+      "synonyms": [
+        "1962"
+      ]
+    },
+    {
+      "value": "1961",
+      "synonyms": [
+        "1961"
+      ]
+    },
+    {
+      "value": "1960",
+      "synonyms": [
+        "1960"
+      ]
+    },
+    {
+      "value": "1959",
+      "synonyms": [
+        "1959"
+      ]
+    },
+    {
+      "value": "1958",
+      "synonyms": [
+        "1958"
+      ]
+    },
+    {
+      "value": "1957",
+      "synonyms": [
+        "1957"
+      ]
+    },
+    {
+      "value": "1956",
+      "synonyms": [
+        "1956"
+      ]
+    },
+    {
+      "value": "1955",
+      "synonyms": [
+        "1955"
+      ]
+    },
+    {
+      "value": "1954",
+      "synonyms": [
+        "1954"
+      ]
+    },
+    {
+      "value": "1953",
+      "synonyms": [
+        "1953"
+      ]
+    },
+    {
+      "value": "1952",
+      "synonyms": [
+        "1952"
+      ]
+    },
+    {
+      "value": "1951",
+      "synonyms": [
+        "1951"
+      ]
+    },
+    {
+      "value": "1950",
+      "synonyms": [
+        "1950"
+      ]
+    },
+    {
+      "value": "1949",
+      "synonyms": [
+        "1949"
+      ]
+    },
+    {
+      "value": "1948",
+      "synonyms": [
+        "1948"
+      ]
+    },
+    {
+      "value": "1947",
+      "synonyms": [
+        "1947"
+      ]
+    },
+    {
+      "value": "1946",
+      "synonyms": [
+        "1946"
+      ]
+    },
+    {
+      "value": "1945",
+      "synonyms": [
+        "1945"
+      ]
+    },
+    {
+      "value": "1944",
+      "synonyms": [
+        "1944"
+      ]
+    },
+    {
+      "value": "1943",
+      "synonyms": [
+        "1943"
+      ]
+    },
+    {
+      "value": "1942",
+      "synonyms": [
+        "1942"
+      ]
+    },
+    {
+      "value": "1941",
+      "synonyms": [
+        "1941"
+      ]
+    },
+    {
+      "value": "1940",
+      "synonyms": [
+        "1940"
+      ]
+    },
+    {
+      "value": "1939",
+      "synonyms": [
+        "1939"
+      ]
+    },
+    {
+      "value": "1938",
+      "synonyms": [
+        "1938"
+      ]
+    },
+    {
+      "value": "1937",
+      "synonyms": [
+        "1937"
+      ]
+    },
+    {
+      "value": "1936",
+      "synonyms": [
+        "1936"
+      ]
+    },
+    {
+      "value": "1935",
+      "synonyms": [
+        "1935"
+      ]
+    },
+    {
+      "value": "1934",
+      "synonyms": [
+        "1934"
+      ]
+    },
+    {
+      "value": "1933",
+      "synonyms": [
+        "1933"
+      ]
+    },
+    {
+      "value": "1932",
+      "synonyms": [
+        "1932"
+      ]
+    },
+    {
+      "value": "1931",
+      "synonyms": [
+        "1931"
+      ]
+    },
+    {
+      "value": "1930",
+      "synonyms": [
+        "1930"
+      ]
+    },
+    {
+      "value": "1929",
+      "synonyms": [
+        "1929"
+      ]
+    },
+    {
+      "value": "1928",
+      "synonyms": [
+        "1928"
+      ]
+    },
+    {
+      "value": "1927",
+      "synonyms": [
+        "1927"
+      ]
+    },
+    {
+      "value": "1926",
+      "synonyms": [
+        "1926"
+      ]
+    },
+    {
+      "value": "1925",
+      "synonyms": [
+        "1925"
+      ]
+    },
+    {
+      "value": "1924",
+      "synonyms": [
+        "1924"
+      ]
+    },
+    {
+      "value": "1923",
+      "synonyms": [
+        "1923"
+      ]
+    },
+    {
+      "value": "1922",
+      "synonyms": [
+        "1922"
+      ]
+    },
+    {
+      "value": "1921",
+      "synonyms": [
+        "1921"
+      ]
+    },
+    {
+      "value": "1920",
+      "synonyms": [
+        "1920"
+      ]
+    },
+    {
+      "value": "1919",
+      "synonyms": [
+        "1919"
+      ]
+    },
+    {
+      "value": "1918",
+      "synonyms": [
+        "1918"
+      ]
+    },
+    {
+      "value": "1917",
+      "synonyms": [
+        "1917"
+      ]
+    },
+    {
+      "value": "1916",
+      "synonyms": [
+        "1916"
+      ]
+    },
+    {
+      "value": "1915",
+      "synonyms": [
+        "1915"
+      ]
+    },
+    {
+      "value": "1914",
+      "synonyms": [
+        "1914"
+      ]
+    },
+    {
+      "value": "1913",
+      "synonyms": [
+        "1913"
+      ]
+    },
+    {
+      "value": "1912",
+      "synonyms": [
+        "1912"
+      ]
+    },
+    {
+      "value": "1911",
+      "synonyms": [
+        "1911"
+      ]
+    },
+    {
+      "value": "1910",
+      "synonyms": [
+        "1910"
+      ]
+    },
+    {
+      "value": "1909",
+      "synonyms": [
+        "1909"
+      ]
+    },
+    {
+      "value": "1908",
+      "synonyms": [
+        "1908"
+      ]
+    },
+    {
+      "value": "1907",
+      "synonyms": [
+        "1907"
+      ]
+    },
+    {
+      "value": "1906",
+      "synonyms": [
+        "1906"
+      ]
+    },
+    {
+      "value": "1905",
+      "synonyms": [
+        "1905"
+      ]
+    },
+    {
+      "value": "1904",
+      "synonyms": [
+        "1904"
+      ]
+    },
+    {
+      "value": "1903",
+      "synonyms": [
+        "1903"
+      ]
+    },
+    {
+      "value": "1902",
+      "synonyms": [
+        "1902"
+      ]
+    },
+    {
+      "value": "1901",
+      "synonyms": [
+        "1901"
+      ]
+    },
+    {
+      "value": "1900",
+      "synonyms": [
+        "1900"
+      ]
+    }
+  ],
+  "isEnum": true,
+  "automatedExpansion": false
+}

@@ -1,0 +1,85 @@
+{
+  "id": "96bd53f1-5be1-43bf-bc4e-ff8c05b708c4",
+  "name": "CloseIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536243844,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "8ec8142f-1879-46da-8f06-1f76b95695c8",
+      "data": [
+        {
+          "text": "exit agri business"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536243844,
+      "isAuto": false
+    },
+    {
+      "id": "5c383c86-527b-4b43-a414-0861102daded",
+      "data": [
+        {
+          "text": "close Agri-business"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536243844,
+      "isAuto": false
+    },
+    {
+      "id": "6401aa0e-b839-4b3c-9431-a3d27a96872e",
+      "data": [
+        {
+          "text": "Exit Agri-business"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536243844,
+      "isAuto": false
+    },
+    {
+      "id": "b6a434f9-033a-46d6-86c9-2b2c726d480d",
+      "data": [
+        {
+          "text": "Close agri business"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536243844,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

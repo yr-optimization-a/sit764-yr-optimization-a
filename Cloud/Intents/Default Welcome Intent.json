@@ -1,0 +1,87 @@
+{
+  "id": "e6d45d5d-1478-4bdc-b401-0bfd006609ff",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Welcome! I am here to help you with global Agri-Business data."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536384598,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "1335b3f0-1c7c-4305-adc4-7d8f71720c67",
+      "data": [
+        {
+          "text": "start agri business",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d9547363-0547-4408-981d-886c2ad45b97",
+      "data": [
+        {
+          "text": "start agribusiness"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7d04a547-4fe4-4223-aed6-4682ebf42543",
+      "data": [
+        {
+          "text": "agri business"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 1535510195,
+      "isAuto": false
+    },
+    {
+      "id": "691146ee-18e2-4a7e-b90d-672614675181",
+      "data": [
+        {
+          "text": "Agri-business"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1535506353,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

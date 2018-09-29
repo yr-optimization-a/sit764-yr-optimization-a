@@ -1,0 +1,5348 @@
+{
+  "id": "df6c1fd7-5717-4bda-bbce-ea2a651bff68",
+  "name": "CropDataIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "30b98f3c-2413-48fb-8aef-ae4b215801ec",
+          "required": true,
+          "dataType": "@crop",
+          "name": "cropData",
+          "value": "$cropData",
+          "prompts": [
+            "Which crop's data would you like?"
+          ],
+          "isList": false
+        },
+        {
+          "id": "ca6b87f7-35a3-4812-bd5b-16313881419e",
+          "required": true,
+          "dataType": "@year",
+          "name": "year",
+          "value": "$year",
+          "prompts": [
+            "Which year do you want the data from?"
+          ],
+          "defaultValue": "2016",
+          "isList": false
+        },
+        {
+          "id": "39f9ddd1-2975-4f12-a89c-d3a6f51427cc",
+          "required": true,
+          "dataType": "@elementType",
+          "name": "elementType",
+          "value": "$elementType",
+          "prompts": [
+            "Do you want data about Yield, Production or Harvest?"
+          ],
+          "defaultValue": "Production",
+          "isList": false
+        },
+        {
+          "id": "c6a25258-1013-48b6-bca0-39f4a706e373",
+          "required": true,
+          "dataType": "@location",
+          "name": "location",
+          "value": "$location",
+          "prompts": [
+            "Which country do you want the data from?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1537328147,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "66ed8868-0b37-4a7a-868e-ad49fef07e03",
+      "data": [
+        {
+          "text": "what's the month of "
+        },
+        {
+          "text": "rice",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1536736853,
+      "isAuto": false
+    },
+    {
+      "id": "716e10ba-3b87-4a84-8a6e-78151a77b1a7",
+      "data": [
+        {
+          "text": "what is the amount of "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "rice",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1536736853,
+      "isAuto": false
+    },
+    {
+      "id": "e2c95f19-d7a2-4b2c-9bf4-58f3f0b072f8",
+      "data": [
+        {
+          "text": "what is the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "rice",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "779945d8-96e4-4f6e-91df-f0e67c596717",
+      "data": [
+        {
+          "text": "what is the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "apples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 1536736853,
+      "isAuto": false
+    },
+    {
+      "id": "89d80832-51ac-4db6-8074-cd6a9a383732",
+      "data": [
+        {
+          "text": "what is the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "tea",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Nepal",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "2015",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1536736853,
+      "isAuto": false
+    },
+    {
+      "id": "02b237c3-5846-4a03-80db-86eadbe74ccd",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "pumpkin",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2009",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "78d05427-b9df-42b2-a99f-6014df046569",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "mango",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ca9eb5df-ddd5-4278-97c0-45744a1cf0d5",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "Apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "44ef1979-dc1f-49ed-9ea0-4e0e7d0242e2",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "tea",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " is supplied by ",
+          "userDefined": false
+        },
+        {
+          "text": "Afghanistan",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2016",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "05ec0b79-299a-4712-a31e-eb532fe8d36e",
+      "data": [
+        {
+          "text": "can I know how much years are in ",
+          "userDefined": false
+        },
+        {
+          "text": "Afghanistan",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6e83a6d5-9d8c-46c8-9960-2a7103a3e8a5",
+      "data": [
+        {
+          "text": "can I know how much years are in ",
+          "userDefined": false
+        },
+        {
+          "text": "Afghanistan",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2015",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3ef65fe9-8fc3-424b-8f83-191f0ab338b3",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "mangoes",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2008",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c416f3bb-9d6b-42a6-a7f3-6369f053936c",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "mango",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " crops in ",
+          "userDefined": false
+        },
+        {
+          "text": "Sri Lanka",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7aa524f4-5eeb-4748-b190-fc1361ac1e0e",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "coconut",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Sri Lanka",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3484272c-82dc-40a0-93c8-c0dae783a7e6",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "coconut",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9ff2d23a-2cd6-499f-a82a-aef29fde7aaf",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "coconut",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Philippines",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "10c08408-4d73-4ec5-9173-bd57dec512b8",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "coconut",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "067059c1-42ff-4cd2-9f7a-0cf62759fe30",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "Apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " 2040",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e06d7ee5-36e6-47c7-98bf-3477085740d7",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "Apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2012",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "002ef0f0-4f04-43f4-b13f-ffe50cf9291d",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " product production in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5e2dc08b-9d60-4dd0-8f42-c87877f71457",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5cac7b8d-3edf-4554-858f-799996db31ef",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " Cup in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " 2040",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "68afc55b-8002-422c-85a0-ec61f1e7c750",
+      "data": [
+        {
+          "text": "they know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "orange",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " crops in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1057d8d6-007b-457d-90dc-ed0014ec620d",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "pumpkin",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " crops are made in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c66333c4-5525-4645-bef3-979f237ea1c7",
+      "data": [
+        {
+          "text": "can I know how much crop ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "18d2b53c-474b-40ed-a8f6-1a38c26929fb",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "pumpkin",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " crop production in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1f8a4dc9-da8b-4e16-82e2-dc08292796a0",
+      "data": [
+        {
+          "text": "how much is the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "mangoes",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2008",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 3,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "334a99f4-5188-4e53-bf7a-6834b8bc6bfd",
+      "data": [
+        {
+          "text": "how much is the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "coconut",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Sri Lanka",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2012",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4964ac9f-6635-44a7-a613-7cfbda6901af",
+      "data": [
+        {
+          "text": "how much of the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "coconut",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2012",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "60b35fe4-da82-4d69-90f2-0968cbd31977",
+      "data": [
+        {
+          "text": "how many ",
+          "userDefined": false
+        },
+        {
+          "text": "apples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4d6f84bc-2497-4cad-ac28-4fce8c619a2d",
+      "data": [
+        {
+          "text": "how many ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "yield",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5a1a8919-79d1-46d5-9fff-ba16b1ebd23a",
+      "data": [
+        {
+          "text": "how much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9f38b4e5-c395-4d47-8dd1-742afbf425ca",
+      "data": [
+        {
+          "text": "can I know the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "apples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2009",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Belgium",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 3,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5f7fec89-f054-408b-abb2-2e1e027104dc",
+      "data": [
+        {
+          "text": "how much was the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "2019",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Philippines",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ffaf9626-846a-4b04-9230-6dace9b1df86",
+      "data": [
+        {
+          "text": "how much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2008",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "United States",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " America",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fd51a71c-b058-43d5-b3e8-33978975d29f",
+      "data": [
+        {
+          "text": "can I know the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "pumpkins",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2018",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "64bd8edc-a8e0-4e46-9913-cbaa17bb3167",
+      "data": [
+        {
+          "text": "how many ",
+          "userDefined": false
+        },
+        {
+          "text": "apples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " are pronounced in ",
+          "userDefined": false
+        },
+        {
+          "text": "2009",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Belgium",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a8c96044-21c2-4087-8b0d-66fa8590b17b",
+      "data": [
+        {
+          "text": "how many ",
+          "userDefined": false
+        },
+        {
+          "text": "apples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " are there in ",
+          "userDefined": false
+        },
+        {
+          "text": "2009",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Belgium",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5a92a209-7ba7-42eb-8966-4e6adc4b3187",
+      "data": [
+        {
+          "text": "how much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "coconut",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2019",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8cb9a2ae-4085-4461-a5f1-c41938bbe3d2",
+      "data": [
+        {
+          "text": "how much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "coconut",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7b961156-59f2-44a9-82d1-06b36e116d29",
+      "data": [
+        {
+          "text": "how much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "chillies",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2009",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cdaba648-e964-41c5-8cf0-1b5a2a049407",
+      "data": [
+        {
+          "text": "how many ",
+          "userDefined": false
+        },
+        {
+          "text": "Apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2008",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8ab9c299-553b-42f6-b8f9-b2c44a44b7cd",
+      "data": [
+        {
+          "text": "how many ",
+          "userDefined": false
+        },
+        {
+          "text": "mangoes",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2019",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "45d036f0-dc22-4e0d-82ab-da6ebcd18fd8",
+      "data": [
+        {
+          "text": "how many ",
+          "userDefined": false
+        },
+        {
+          "text": "mangoes",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2007",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d3e095b8-079f-4e25-aaff-b8ace60e01f3",
+      "data": [
+        {
+          "text": "how many ",
+          "userDefined": false
+        },
+        {
+          "text": "strawberry",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "yields",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2008",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "036ac83a-f1fa-4d2f-a112-57dd05c9e544",
+      "data": [
+        {
+          "text": "can I know the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "cherries",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2017",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1301cfb7-35ed-43a8-af68-144b8caa7ed5",
+      "data": [
+        {
+          "text": "can I know the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "rice",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2008",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "96400c36-347a-4132-90a7-371694aef5af",
+      "data": [
+        {
+          "text": "can I know the yields of ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2016",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "76ccfc06-f87c-4563-adf0-7eab01dd8d90",
+      "data": [
+        {
+          "text": "how many ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " are product in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2016",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "eed8864d-cd8b-471a-9d48-3d6504aadf07",
+      "data": [
+        {
+          "text": "how many oranges are ",
+          "userDefined": false
+        },
+        {
+          "text": "produced",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2015",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "25b67da3-b115-4c06-a45a-fdf2110e5f90",
+      "data": [
+        {
+          "text": "how many strawberries are ",
+          "userDefined": false
+        },
+        {
+          "text": "produced",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2016",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "655aca3c-8f90-4ae2-a4ea-30e8aa45fdf8",
+      "data": [
+        {
+          "text": "how many ",
+          "userDefined": false
+        },
+        {
+          "text": "strawberry",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " years are in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2015",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "80d13237-1091-4397-946b-35a3d664276e",
+      "data": [
+        {
+          "text": "how many ",
+          "userDefined": false
+        },
+        {
+          "text": "strawberry",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " years are in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2016",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f56448f7-cc4a-49f2-b2f0-0f27df95c60a",
+      "data": [
+        {
+          "text": "In "
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " what was the "
+        },
+        {
+          "text": "yield",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "apples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ef501c83-2b2e-420e-bd14-cd630107303d",
+      "data": [
+        {
+          "text": "how much was the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "rice",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0120fad6-8403-4b23-9e7d-ea12b7909f53",
+      "data": [
+        {
+          "text": "how much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "rice",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Africa",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5c64af7b-a506-459b-8310-2f44f05feeae",
+      "data": [
+        {
+          "text": "how much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of Tunisia",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5c9c314e-5a8a-4200-8058-8c00571d2fa6",
+      "data": [
+        {
+          "text": "how much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "dates",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Nepal",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1ebb024a-ccdc-45db-ab6f-70ce824d5393",
+      "data": [
+        {
+          "text": "how much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9bdf6b4b-3253-4d5c-90f0-1285f8a6fb71",
+      "data": [
+        {
+          "text": "the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "726016ff-60a5-41c3-85f0-24170da6212f",
+      "data": [
+        {
+          "text": "In ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " what was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0d61bca1-4167-4b69-8c56-4fa47baeb675",
+      "data": [
+        {
+          "text": "In ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in 2014",
+          "userDefined": false
+        },
+        {
+          "text": " how much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b4ecd9b4-5ab4-47cd-8e01-cdec0c5ac30e",
+      "data": [
+        {
+          "text": "How much ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "produced",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 3,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "634ed73f-2801-4b86-b18e-4cbf3f6f5d6a",
+      "data": [
+        {
+          "text": "How much ",
+          "userDefined": false
+        },
+        {
+          "text": "oranges",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "harvested",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c3fc78cb-b819-4b29-8ae7-901b0dcbf02c",
+      "data": [
+        {
+          "text": "how much was a "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ca99b3a7-6fd4-4310-93de-960ea136d78c",
+      "data": [
+        {
+          "text": "how much was a collection of "
+        },
+        {
+          "text": "apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Africa",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "1967",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dc50e300-6c48-4f25-baa7-4ed89cf30678",
+      "data": [
+        {
+          "text": "how much was the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in April "
+        },
+        {
+          "text": "1967",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e6fa7a1b-5efe-4c1c-beee-335ba3b4606f",
+      "data": [
+        {
+          "text": "how much was the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Africa",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "1967",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "441f9ba7-1000-4aaa-af9a-15424e166164",
+      "data": [
+        {
+          "text": "how much was the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "2018",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e8a8d865-98aa-48de-92de-d95af89db8d6",
+      "data": [
+        {
+          "text": "how much was the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "almond",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "2016",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "37cffaba-8048-403d-98ec-86a33d6c7955",
+      "data": [
+        {
+          "text": "how much was the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "almond",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "1967",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "99e60dc8-6565-4caa-96ab-6f328e434775",
+      "data": [
+        {
+          "text": "how much was the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in Afghaistan in "
+        },
+        {
+          "text": "2016",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d82fc762-6b11-4c9d-8f9b-c6963d158cda",
+      "data": [
+        {
+          "text": "how much was the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Afghanistan",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "11b8991e-f191-4fd8-818c-a362ca99337b",
+      "data": [
+        {
+          "text": "how much was the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "apple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Afghanistan",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "1963",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c3bbd819-94d0-4458-bb67-2ef2fd05aca1",
+      "data": [
+        {
+          "text": "how much were the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "almond",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Afghanistan",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "1976",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3882f6dc-b8fb-4bf2-a79d-2caefa577941",
+      "data": [
+        {
+          "text": "how much was the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "almond",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Afghanistan",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "1976",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ac6a3cc4-5f1d-40fb-bde4-f8c61d65909f",
+      "data": [
+        {
+          "text": "how much will the "
+        },
+        {
+          "text": "yield",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "apples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Afghanistan",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "1976",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1537328147,
+      "isAuto": false
+    },
+    {
+      "id": "4b3a76af-9759-45a5-a8d5-17f254ea9b7f",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "mango",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in Indian ",
+          "userDefined": false
+        },
+        {
+          "text": "2018",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a51dff5f-0080-4b12-8f71-0ebc36646afd",
+      "data": [
+        {
+          "text": "how many ",
+          "userDefined": false
+        },
+        {
+          "text": "apples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "yield",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "afghanistan",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2015",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "aed5157b-dc7c-4442-a1e4-44af29684a0f",
+      "data": [
+        {
+          "text": "can I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "pumpkin",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2019",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fc6223a0-3c44-4d89-ac08-6fadb2ab31d8",
+      "data": [
+        {
+          "text": "then I know how much ",
+          "userDefined": false
+        },
+        {
+          "text": "pumpkin",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2009",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0fb0b309-274a-420c-8386-5aa96c80e37d",
+      "data": [
+        {
+          "text": "what is the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "rice",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "921e01b1-97b4-4ded-97d7-3db5e74a42c3",
+      "data": [
+        {
+          "text": "what is the amount of rates of ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in the year ",
+          "userDefined": false
+        },
+        {
+          "text": "2001",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1e0b6fb0-2bd9-4ffc-b55d-47b7b0ccb287",
+      "data": [
+        {
+          "text": "In ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " what was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "apples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f56c2684-28a9-4d04-b2ca-af244333af44",
+      "data": [
+        {
+          "text": "what is ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " pf ",
+          "userDefined": false
+        },
+        {
+          "text": "mango",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in australi?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "81cb6179-3a63-4233-b1f9-b87169c5e55a",
+      "data": [
+        {
+          "text": "what is ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " pf ",
+          "userDefined": false
+        },
+        {
+          "text": "mango",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "970d0e09-2fc8-45a6-96e0-89d429fe7f0c",
+      "data": [
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "dates",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a04171b4-e4e5-493c-be7e-d49612386f90",
+      "data": [
+        {
+          "text": "how much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "mangoes",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Nepal",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2016",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9ad3f3e7-a53c-4ca0-bdbd-88376a12fef2",
+      "data": [
+        {
+          "text": "how much is the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "apples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Nepal",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2016",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "448a7517-a548-4017-b4db-440d8530b823",
+      "data": [
+        {
+          "text": "what will the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "wheat",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "China",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "825d2570-a5fc-4007-9e4e-92a4a102a1ca",
+      "data": [
+        {
+          "text": "what was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "pumpkin",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "China",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2015",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e189b5ef-e874-4db3-841a-97a6bbfcc7cd",
+      "data": [
+        {
+          "text": "what was the "
+        },
+        {
+          "text": "yield",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "sugarcane",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": true
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Japan",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f22b1a6f-0c8e-42fd-97e5-7f6a07fce249",
+      "data": [
+        {
+          "text": "what was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "pineapples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Canada",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2015",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7870c233-6c3f-4e4c-b3ca-7d7eb4101296",
+      "data": [
+        {
+          "text": "what was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "pineapples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Argentina",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2015",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f0e10476-b9b9-4cb5-9ac2-7cf934b3832a",
+      "data": [
+        {
+          "text": "what was the ",
+          "userDefined": false
+        },
+        {
+          "text": "harvest",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "coconut",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Brazil",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2013",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fd6bdb3f-6bf4-4efb-9c08-08895b50f222",
+      "data": [
+        {
+          "text": "what was what was the ",
+          "userDefined": false
+        },
+        {
+          "text": "yield",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "dates",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "China",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "85a19315-1362-4e6b-bbbe-77f999f088ee",
+      "data": [
+        {
+          "text": "give me "
+        },
+        {
+          "text": "dates",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " data for "
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Nepal",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b1811d33-4cb4-40d4-82c1-ef9f531f0da7",
+      "data": [
+        {
+          "text": "what is the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "apples",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Nepal",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "2013",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "deac91a2-53fb-42ff-bfa0-e342a9d18035",
+      "data": [
+        {
+          "text": "what is the ",
+          "userDefined": false
+        },
+        {
+          "text": "harvest",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "tomatoes",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Argentina",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ce5694dd-3454-45b0-9512-6afa38ebda72",
+      "data": [
+        {
+          "text": "How much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "Production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "mango",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Africa",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2000",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "331d26a2-c984-4e53-833b-a84f7d58597d",
+      "data": [
+        {
+          "text": "How much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "Production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "mango",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2000",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7974fd8e-bebc-4b26-a2a7-be823093aafb",
+      "data": [
+        {
+          "text": "How much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "Production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "mango",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2000",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "52a02ac3-1bdc-467f-9699-b289766aebdc",
+      "data": [
+        {
+          "text": "How much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "Production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "rice",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Africa",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2000",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "223bcfd1-b1d9-460d-9dac-5c685a7594b1",
+      "data": [
+        {
+          "text": "give me data for ",
+          "userDefined": false
+        },
+        {
+          "text": "dates",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in the year ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " for ",
+          "userDefined": false
+        },
+        {
+          "text": "Tunisia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dc91ca0e-03cd-4eb9-9449-fb6b529d6311",
+      "data": [
+        {
+          "text": "How much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "Harvest",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "mango",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2000",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "837c9c78-e6a1-40a8-8db0-28a14126c793",
+      "data": [
+        {
+          "text": "How much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "Production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "mango",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2016",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f96aad0b-c58d-4c22-af73-ef26053883cb",
+      "data": [
+        {
+          "text": "How much was the ",
+          "userDefined": false
+        },
+        {
+          "text": "Production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "mango",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dde56b0d-27a3-4107-8932-d8b4c1ec9f39",
+      "data": [
+        {
+          "text": "what is the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "tea",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536736853,
+      "isAuto": false
+    },
+    {
+      "id": "8346130a-f877-4bfe-80b7-cc1ff764b281",
+      "data": [
+        {
+          "text": "what does the "
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "tea",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Nepal",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "2015",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536736853,
+      "isAuto": false
+    },
+    {
+      "id": "6a4c5ffb-f77a-42a9-b08c-d27f862ad714",
+      "data": [
+        {
+          "text": "what was the "
+        },
+        {
+          "text": "yield",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "grapes",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Argentina",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536736853,
+      "isAuto": false
+    },
+    {
+      "id": "911779b9-dd84-418d-a6e1-254979834335",
+      "data": [
+        {
+          "text": "what was the ",
+          "userDefined": false
+        },
+        {
+          "text": "yield",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "pineapple",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Argentina",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "63399167-8402-4bed-b3d2-9129fc8495bb",
+      "data": [
+        {
+          "text": "what was the ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "tea",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Nepal",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2015",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fc29c67a-1718-41b7-a2a0-fcf4a51a9ea2",
+      "data": [
+        {
+          "text": "why do I say ",
+          "userDefined": false
+        },
+        {
+          "text": "production",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "rice",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2016",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f248ee45-ed17-4681-8296-61a82a882706",
+      "data": [
+        {
+          "text": "what was the ",
+          "userDefined": false
+        },
+        {
+          "text": "yield",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "potatoes",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Canada",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0cd157b4-bb59-42e7-a91f-a8440dc3510e",
+      "data": [
+        {
+          "text": "what was the ",
+          "userDefined": false
+        },
+        {
+          "text": "harvest",
+          "alias": "elementType",
+          "meta": "@elementType",
+          "userDefined": false
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "tea",
+          "alias": "cropData",
+          "meta": "@crop",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "Argentina",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c92d164c-f69d-44ff-8ed4-0395f757c514",
+      "data": [
+        {
+          "text": "@elementType:elementType of  @crop:cropData in @location:location  for  @year:year"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484143,
+      "isAuto": false
+    },
+    {
+      "id": "e322fbd8-462e-448a-a51c-f982f4726b1c",
+      "data": [
+        {
+          "text": "How much was the @elementType:elementType  of @crop:cropData in the year @year:year in @location:location"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484143,
+      "isAuto": false
+    },
+    {
+      "id": "4ebd19fc-9ff8-4c91-83b7-f56478e20a77",
+      "data": [
+        {
+          "text": "How much was the @elementType:elementType of @crop:cropData in @location:location in @year:year"
+        }
+      ],
+      "isTemplate": true,
+      "count": 1,
+      "updated": 1536484143,
+      "isAuto": false
+    },
+    {
+      "id": "adbf034c-57f6-4a1f-bf63-888d7e7490f6",
+      "data": [
+        {
+          "text": "How much was the @elementType:elementType of @crop:cropData in @location:location for the year @year:year"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484143,
+      "isAuto": false
+    },
+    {
+      "id": "a6ebe42b-ccb1-4cab-9bba-2d1b4b4008fd",
+      "data": [
+        {
+          "text": "@elementType:elementType  @crop:cropData @year:year @location:location"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484143,
+      "isAuto": false
+    },
+    {
+      "id": "5ccf30dc-9337-46f3-9639-1b80084a0ced",
+      "data": [
+        {
+          "text": "Give me @elementType:elementType for a @crop:cropData in the year @year:year for @location:location"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484143,
+      "isAuto": false
+    },
+    {
+      "id": "e77c4b45-6d78-46b9-a9c9-d8ed36e58fbc",
+      "data": [
+        {
+          "text": "I would like @elementType:elementType on @crop:cropData for @year:year in @location:location"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484143,
+      "isAuto": false
+    },
+    {
+      "id": "18b27d82-c7a7-4783-9e0e-7fc2c60cc2c8",
+      "data": [
+        {
+          "text": "give me @crop:cropData @elementType:elementType for @year:year for @location:location"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484143,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

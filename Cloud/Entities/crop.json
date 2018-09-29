@@ -1,0 +1,888 @@
+{
+  "id": "6e4d61dd-f0ee-44a5-b27a-06f40f548ada",
+  "name": "crop",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "rice",
+      "synonyms": [
+        "rice",
+        "Rice"
+      ]
+    },
+    {
+      "value": "mango",
+      "synonyms": [
+        "mango",
+        "Mangoes",
+        "mangoes",
+        "Mango"
+      ]
+    },
+    {
+      "value": "pumpkin",
+      "synonyms": [
+        "pumpkin",
+        "Pumpkins",
+        "Pumpkin",
+        "pumpkins"
+      ]
+    },
+    {
+      "value": "dates",
+      "synonyms": [
+        "dates",
+        "Dates"
+      ]
+    },
+    {
+      "value": "Apples",
+      "synonyms": [
+        "Apples",
+        "Apple",
+        "apple",
+        "apples"
+      ]
+    },
+    {
+      "value": "Bananas",
+      "synonyms": [
+        "Bananas",
+        "Banana",
+        "banana",
+        "bananas"
+      ]
+    },
+    {
+      "value": "Tomatoes",
+      "synonyms": [
+        "Tomatoes",
+        "Tomato",
+        "tomato",
+        "tomatoes"
+      ]
+    },
+    {
+      "value": "Garlic",
+      "synonyms": [
+        "garlic",
+        "Garlic",
+        "garlic"
+      ]
+    },
+    {
+      "value": "Grapes",
+      "synonyms": [
+        "grapes",
+        "Grape",
+        "grape"
+      ]
+    },
+    {
+      "value": "Maize",
+      "synonyms": [
+        "maize",
+        "Maize",
+        "maize"
+      ]
+    },
+    {
+      "value": "Millet",
+      "synonyms": [
+        "millet",
+        "Millet",
+        "millet"
+      ]
+    },
+    {
+      "value": "Oranges",
+      "synonyms": [
+        "oranges",
+        "Orange",
+        "orange"
+      ]
+    },
+    {
+      "value": "Papayas",
+      "synonyms": [
+        "papayas",
+        "Papaya",
+        "papaya"
+      ]
+    },
+    {
+      "value": "Pineapples",
+      "synonyms": [
+        "pineapples",
+        "Pineapple",
+        "pineapple"
+      ]
+    },
+    {
+      "value": "Potatoes",
+      "synonyms": [
+        "potatoes",
+        "Potato",
+        "potato"
+      ]
+    },
+    {
+      "value": "Strawberries",
+      "synonyms": [
+        "strawberries",
+        "Strawberry",
+        "strawberry"
+      ]
+    },
+    {
+      "value": "Tea",
+      "synonyms": [
+        "tea",
+        "Tea",
+        "tea"
+      ]
+    },
+    {
+      "value": "Watermelons",
+      "synonyms": [
+        "watermelons",
+        "Watermelon",
+        "watermelon"
+      ]
+    },
+    {
+      "value": "Wheat",
+      "synonyms": [
+        "wheat",
+        "Wheat",
+        "wheat"
+      ]
+    },
+    {
+      "value": "Raspberries",
+      "synonyms": [
+        "raspberries",
+        "Raspberry",
+        "raspberry"
+      ]
+    },
+    {
+      "value": "Coconuts",
+      "synonyms": [
+        "coconuts",
+        "Coconut",
+        "coconut"
+      ]
+    },
+    {
+      "value": "Jute",
+      "synonyms": [
+        "jute",
+        "Jute",
+        "jute"
+      ]
+    },
+    {
+      "value": "Almonds, with shell",
+      "synonyms": [
+        "Almonds",
+        "almonds",
+        "Almond"
+      ]
+    },
+    {
+      "value": "Anise, badian, fennel, coriander",
+      "synonyms": [
+        "Anise",
+        "anise",
+        "badian",
+        "fennel",
+        "coriander"
+      ]
+    },
+    {
+      "value": "Cotton lint",
+      "synonyms": [
+        "Cotton",
+        "cotton"
+      ]
+    },
+    {
+      "value": "Fruit, citrus nes",
+      "synonyms": [
+        "Citrus fruit",
+        "citrus fruit"
+      ]
+    },
+    {
+      "value": "Fruit, fresh nes",
+      "synonyms": [
+        "Fresh fruit",
+        "fresh fruit"
+      ]
+    },
+    {
+      "value": "Fruit, stone nes",
+      "synonyms": [
+        "Fresh fruit",
+        "fresh fruit"
+      ]
+    },
+    {
+      "value": "Melons, other (inc.cantaloupes)",
+      "synonyms": [
+        "Melons",
+        "melons",
+        "cantaloupes"
+      ]
+    },
+    {
+      "value": "Nuts, nes",
+      "synonyms": [
+        "Nuts",
+        "nuts"
+      ]
+    },
+    {
+      "value": "Onions, dry",
+      "synonyms": [
+        "Onions",
+        "onions"
+      ]
+    },
+    {
+      "value": "Peaches and nectarines",
+      "synonyms": [
+        "Peaches",
+        "peaches"
+      ]
+    },
+    {
+      "value": "Plums and sloes",
+      "synonyms": [
+        "Plums",
+        "plums"
+      ]
+    },
+    {
+      "value": "Pulses, nes",
+      "synonyms": [
+        "Pulses",
+        "pulses"
+      ]
+    },
+    {
+      "value": "Rice, paddy",
+      "synonyms": [
+        "Rice",
+        "rice",
+        "paddy"
+      ]
+    },
+    {
+      "value": "Seed cotton",
+      "synonyms": [
+        "Seed",
+        "seed"
+      ]
+    },
+    {
+      "value": "Sesame seed",
+      "synonyms": [
+        "Sesame",
+        "sesame",
+        "sesame seed"
+      ]
+    },
+    {
+      "value": "Spices, nes",
+      "synonyms": [
+        "Spices",
+        "spices"
+      ]
+    },
+    {
+      "value": "Sugar beet",
+      "synonyms": [
+        "Sugar",
+        "sugar"
+      ]
+    },
+    {
+      "value": "Sugar cane",
+      "synonyms": [
+        "Sugar cane",
+        "sugar cane"
+      ]
+    },
+    {
+      "value": "Sunflower seed",
+      "synonyms": [
+        "Sunflower",
+        "sunflower"
+      ]
+    },
+    {
+      "value": "Vegetables, fresh nes",
+      "synonyms": [
+        "Vegetables",
+        "vegetables"
+      ]
+    },
+    {
+      "value": "Walnuts, with shell",
+      "synonyms": [
+        "Walnuts",
+        "walnuts"
+      ]
+    },
+    {
+      "value": "Beans, dry",
+      "synonyms": [
+        "Dry beans",
+        "dry beans"
+      ]
+    },
+    {
+      "value": "Beans, dry",
+      "synonyms": [
+        "Grean beans",
+        "grean beans"
+      ]
+    },
+    {
+      "value": "Broad beans, horse beans, dry",
+      "synonyms": [
+        "broad beans",
+        "broad beans",
+        "horse beans"
+      ]
+    },
+    {
+      "value": "Cabbages and other brassicas",
+      "synonyms": [
+        "Cabbages",
+        "cabbages"
+      ]
+    },
+    {
+      "value": "Carrots and turnips",
+      "synonyms": [
+        "Carrots",
+        "carrots",
+        "turnips"
+      ]
+    },
+    {
+      "value": "Cauliflowers and broccoli",
+      "synonyms": [
+        "Cauliflowers",
+        "cauliflowers",
+        "broccoli"
+      ]
+    },
+    {
+      "value": "Cherries, sour",
+      "synonyms": [
+        "Cherries",
+        "cherries"
+      ]
+    },
+    {
+      "value": "Chillies and peppers, green",
+      "synonyms": [
+        "Chillies",
+        "chillies",
+        "peppers",
+        "Chilly",
+        "pepper"
+      ]
+    },
+    {
+      "value": "Cucumbers and gherkins",
+      "synonyms": [
+        "Cucumbers",
+        "cucumbers",
+        "gherkins"
+      ]
+    },
+    {
+      "value": "Eggplants (aubergines)",
+      "synonyms": [
+        "Eggplants",
+        "eggplants"
+      ]
+    },
+    {
+      "value": "Leeks, other alliaceous vegetables",
+      "synonyms": [
+        "Leeks",
+        "leeks"
+      ]
+    },
+    {
+      "value": "Lemons and limes",
+      "synonyms": [
+        "Lemons",
+        "lemons"
+      ]
+    },
+    {
+      "value": "Lettuce and chicory",
+      "synonyms": [
+        "Lettuce",
+        "lettuce"
+      ]
+    },
+    {
+      "value": "Mushrooms and truffles",
+      "synonyms": [
+        "Mushrooms",
+        "mushrooms"
+      ]
+    },
+    {
+      "value": "Oil, palm",
+      "synonyms": [
+        "palm oil",
+        "palm oil"
+      ]
+    },
+    {
+      "value": "Onions, shallots, green",
+      "synonyms": [
+        "Onions",
+        "onions"
+      ]
+    },
+    {
+      "value": "Peas, green",
+      "synonyms": [
+        "Peas",
+        "peas",
+        "green peas"
+      ]
+    },
+    {
+      "value": "Pumpkins, squash and gourds",
+      "synonyms": [
+        "Pumpkins",
+        "pumpkins"
+      ]
+    },
+    {
+      "value": "Tangerines, mandarins, clementines, satsumas",
+      "synonyms": [
+        "Tangerines",
+        "tangerines",
+        "mandarins",
+        "clementines",
+        "satsumas"
+      ]
+    },
+    {
+      "value": "Tobacco, unmanufactured",
+      "synonyms": [
+        "Tobacco",
+        "tobacco"
+      ]
+    },
+    {
+      "value": "Vegetables, leguminous nes",
+      "synonyms": [
+        "leguminous",
+        "leguminous"
+      ]
+    },
+    {
+      "value": "Chick peas",
+      "synonyms": [
+        "Chick peas",
+        "chick peas"
+      ]
+    },
+    {
+      "value": "Fruit, tropical fresh nes",
+      "synonyms": [
+        "tropical fruit",
+        "tropical fruit"
+      ]
+    },
+    {
+      "value": "Grapefruit (inc. pomelos)",
+      "synonyms": [
+        "Grapefruit",
+        "grapefruit"
+      ]
+    },
+    {
+      "value": "Groundnuts, with shell",
+      "synonyms": [
+        "Groundnuts",
+        "groundnuts"
+      ]
+    },
+    {
+      "value": "Peas, dry",
+      "synonyms": [
+        "dry Peas",
+        "dry peas"
+      ]
+    },
+    {
+      "value": "Cocoa, beans",
+      "synonyms": [
+        "Cocoa",
+        "cocoa",
+        "Cocoa bean"
+      ]
+    },
+    {
+      "value": "Maize, green",
+      "synonyms": [
+        "Maize",
+        "maize"
+      ]
+    },
+    {
+      "value": "Taro (cocoyam)",
+      "synonyms": [
+        "Taro",
+        "taro"
+      ]
+    },
+    {
+      "value": "Bastfibres, other",
+      "synonyms": [
+        "Bastfibres",
+        "bastfibres"
+      ]
+    },
+    {
+      "value": "Cashew nuts, with shell",
+      "synonyms": [
+        "Cashew",
+        "cashew",
+        "Cashew nut"
+      ]
+    },
+    {
+      "value": "Castor oil seed",
+      "synonyms": [
+        "Castor",
+        "castor",
+        "Castor oil"
+      ]
+    },
+    {
+      "value": "Coffee, green",
+      "synonyms": [
+        "Coffee",
+        "coffee"
+      ]
+    },
+    {
+      "value": "Oil palm fruit",
+      "synonyms": [
+        "palm Oil fruit",
+        "palm oil fruit"
+      ]
+    },
+    {
+      "value": "Palm kernels",
+      "synonyms": [
+        "Palm",
+        "palm"
+      ]
+    },
+    {
+      "value": "Sweet potatoes",
+      "synonyms": [
+        "Sweet potato",
+        "sweet potato"
+      ]
+    },
+    {
+      "value": "Mangoes, mangosteens, guavas",
+      "synonyms": [
+        "Mangoes",
+        "mangoes",
+        "mangosteen",
+        "guavas",
+        "guava",
+        "mangosteens"
+      ]
+    },
+    {
+      "value": "Canary seed",
+      "synonyms": [
+        "Canary",
+        "canary"
+      ]
+    },
+    {
+      "value": "Cereals, nes",
+      "synonyms": [
+        "Cereals",
+        "cereals"
+      ]
+    },
+    {
+      "value": "Oilseeds nes",
+      "synonyms": [
+        "Oilseeds",
+        "oilseeds"
+      ]
+    },
+    {
+      "value": "Safflower seed",
+      "synonyms": [
+        "Safflower",
+        "safflower"
+      ]
+    },
+    {
+      "value": "String beans",
+      "synonyms": [
+        "String beans",
+        "string beans"
+      ]
+    },
+    {
+      "value": "Tung nuts",
+      "synonyms": [
+        "Tung",
+        "tung"
+      ]
+    },
+    {
+      "value": "Hazelnuts, with shell",
+      "synonyms": [
+        "Hazelnuts",
+        "hazelnuts"
+      ]
+    },
+    {
+      "value": "Cow peas, dry",
+      "synonyms": [
+        "Cow peas",
+        "cow peas"
+      ]
+    },
+    {
+      "value": "Kiwi fruit",
+      "synonyms": [
+        "Kiwi",
+        "kiwi"
+      ]
+    },
+    {
+      "value": "Mustard seed",
+      "synonyms": [
+        "Mustard seed",
+        "mustard seed"
+      ]
+    },
+    {
+      "value": "Grain, mixed",
+      "synonyms": [
+        "Grain",
+        "grain",
+        "mixed grain"
+      ]
+    },
+    {
+      "value": "Hemp tow waste",
+      "synonyms": [
+        "Hemp",
+        "hemp"
+      ]
+    },
+    {
+      "value": "Poppy seed",
+      "synonyms": [
+        "Poppy",
+        "poppy"
+      ]
+    },
+    {
+      "value": "Pigeon peas",
+      "synonyms": [
+        "Pigeon peas",
+        "pigeon peas"
+      ]
+    },
+    {
+      "value": "Plantains and others",
+      "synonyms": [
+        "Plantains",
+        "plantains"
+      ]
+    },
+    {
+      "value": "Areca nuts",
+      "synonyms": [
+        "Areca",
+        "areca"
+      ]
+    },
+    {
+      "value": "Rubber, natural",
+      "synonyms": [
+        "Rubber",
+        "rubber"
+      ]
+    },
+    {
+      "value": "Sugar crops, nes",
+      "synonyms": [
+        "Sugar",
+        "sugar"
+      ]
+    },
+    {
+      "value": "Chicory roots",
+      "synonyms": [
+        "Chicory",
+        "chicory"
+      ]
+    },
+    {
+      "value": "Roots and tubers, nes",
+      "synonyms": [
+        "Roots",
+        "roots"
+      ]
+    },
+    {
+      "value": "Yautia (cocoyam)",
+      "synonyms": [
+        "Yautia",
+        "yautia"
+      ]
+    },
+    {
+      "value": "Karite nuts (sheanuts)",
+      "synonyms": [
+        "Karite",
+        "karite"
+      ]
+    },
+    {
+      "value": "Kola nuts",
+      "synonyms": [
+        "Kola",
+        "kola"
+      ]
+    },
+    {
+      "value": "Pepper (piper spp.)",
+      "synonyms": [
+        "Pepper",
+        "pepper"
+      ]
+    },
+    {
+      "value": "Nutmeg, mace and cardamoms",
+      "synonyms": [
+        "Nutmeg",
+        "nutmeg",
+        "cardamoms",
+        "mace"
+      ]
+    },
+    {
+      "value": "Brazil nuts, with shell",
+      "synonyms": [
+        "Brazil nuts",
+        "brazil nuts"
+      ]
+    },
+    {
+      "value": "Pyrethrum, dried",
+      "synonyms": [
+        "Pyrethrum",
+        "pyrethrum"
+      ]
+    },
+    {
+      "value": "Gums, natural",
+      "synonyms": [
+        "Gums",
+        "gums"
+      ]
+    },
+    {
+      "value": "Cassava leaves",
+      "synonyms": [
+        "Cassava",
+        "cassava"
+      ]
+    },
+    {
+      "value": "Bambara beans",
+      "synonyms": [
+        "Bambara",
+        "bambara"
+      ]
+    },
+    {
+      "value": "Cinnamon (canella)",
+      "synonyms": [
+        "Cinnamon",
+        "cinnamon"
+      ]
+    },
+    {
+      "value": "Tallowtree seed",
+      "synonyms": [
+        "Tallowtree",
+        "tallowtree"
+      ]
+    },
+    {
+      "value": "Agave fibres nes",
+      "synonyms": [
+        "Agave",
+        "agave"
+      ]
+    },
+    {
+      "value": "Manila fibre (abaca)",
+      "synonyms": [
+        "Manila",
+        "manila"
+      ]
+    },
+    {
+      "value": "Kapok fibre",
+      "synonyms": [
+        "Kapok",
+        "kapok"
+      ]
+    },
+    {
+      "value": "Kapok fruit",
+      "synonyms": [
+        "Kapok",
+        "kapok"
+      ]
+    },
+    {
+      "value": "Kapokseed in shell",
+      "synonyms": [
+        "Kapokseed",
+        "kapokseed"
+      ]
+    },
+    {
+      "value": "Jojoba seed",
+      "synonyms": [
+        "Jojoba",
+        "jojoba"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

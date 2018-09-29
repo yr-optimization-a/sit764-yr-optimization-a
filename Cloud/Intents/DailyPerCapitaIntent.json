@@ -1,0 +1,896 @@
+{
+  "id": "f84c7802-51a3-4f4d-a1fe-9ef66eb803b7",
+  "name": "DailyPerCapitaIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4b51ad90-a4fb-423d-a088-e2a2bc164416",
+          "required": true,
+          "dataType": "@year",
+          "name": "year",
+          "value": "$year",
+          "prompts": [
+            "Which year do you like the data from?"
+          ],
+          "isList": false
+        },
+        {
+          "id": "91e06e93-b6cc-47c8-9365-5772815d7a80",
+          "required": true,
+          "dataType": "@sys.geo-country",
+          "name": "country",
+          "value": "$country",
+          "prompts": [
+            "Which country do you like the data from?"
+          ],
+          "isList": false
+        },
+        {
+          "id": "2661f721-2fc1-4db9-aa00-ef53e0b9a741",
+          "required": true,
+          "dataType": "@location",
+          "name": "location",
+          "value": "$location",
+          "prompts": [
+            "Which country do you want the data from?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1536484085,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "f341da26-9fb1-4476-9856-3ab39461cb1c",
+      "data": [
+        {
+          "text": "can I know the daily calorie consumption of a female in "
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "2015",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "32268f7f-b232-4b42-a669-9c886f21a860",
+      "data": [
+        {
+          "text": "can I know the daily calorie intake in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2008",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2aaa822b-ae88-492f-89db-e76f474865f2",
+      "data": [
+        {
+          "text": "in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " what was the daily calorie consumption of ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "55c8133a-5e88-42d8-9574-82e0c1f71615",
+      "data": [
+        {
+          "text": "In ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " what was the daily calorie consumption of ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f3a7e054-5b73-4588-8e69-5adce717a105",
+      "data": [
+        {
+          "text": "what was the daily calorie consumption of ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2013",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "82db1850-effd-48bb-ae89-c99a7dfebb3c",
+      "data": [
+        {
+          "text": "In ",
+          "userDefined": false
+        },
+        {
+          "text": "2013",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " what was the daily calorie consumption of ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d42322ce-c243-4832-8491-926ff3215e43",
+      "data": [
+        {
+          "text": "In ",
+          "userDefined": false
+        },
+        {
+          "text": "india",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2013",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " what was the daily calorie supply?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c2d432fe-4b0c-430f-b82e-38e58d070eae",
+      "data": [
+        {
+          "text": "what was the daily calorie consumption in ",
+          "userDefined": false
+        },
+        {
+          "text": "China",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "1960",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "83cbe9a0-2742-47cc-933d-28c4e0569141",
+      "data": [
+        {
+          "text": "how much was the daily calorie in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "77765253-ee92-43ea-9e74-5e6134924a53",
+      "data": [
+        {
+          "text": "how much was the daily calorie intake in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "57c4bbea-6ce1-436d-9b00-e612148c2e1f",
+      "data": [
+        {
+          "text": "daily calorie supply of ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2000",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c9ab0d96-88d5-486b-a8d3-4882ac97b045",
+      "data": [
+        {
+          "text": "what is the daily calorie supply of ",
+          "userDefined": false
+        },
+        {
+          "text": "USA",
+          "alias": "country",
+          "meta": "@sys.geo-country",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2005",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b8662d11-10e1-4d31-b88b-9d36a99b72be",
+      "data": [
+        {
+          "text": "daily calorie date of ",
+          "userDefined": false
+        },
+        {
+          "text": "Africa",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2000",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c52c1d2c-6f64-4440-ac18-52fc3aee493d",
+      "data": [
+        {
+          "text": "what is the daily calorie intake of ",
+          "userDefined": false
+        },
+        {
+          "text": "Africa",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2000",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fe3dcb65-7027-4748-a7b2-3a23ced077bc",
+      "data": [
+        {
+          "text": "what was the daily calorie intake of ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "country",
+          "meta": "@sys.geo-country",
+          "userDefined": false
+        },
+        {
+          "text": " in the year ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cbd656e0-c39b-4403-bea9-2c6fd3a323c0",
+      "data": [
+        {
+          "text": "what was the daily calorie intake of ",
+          "userDefined": false
+        },
+        {
+          "text": "Africa",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in the year ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d128a5fc-4ce6-4289-b397-f664b59f5569",
+      "data": [
+        {
+          "text": "what was the daily calorie intake of ",
+          "userDefined": false
+        },
+        {
+          "text": "New Zealand",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "2010",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5f8e1622-f5ea-4a30-a1d3-671bf70febc7",
+      "data": [
+        {
+          "text": "what is the daily calorie intake of ",
+          "userDefined": false
+        },
+        {
+          "text": "Nepal",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "1970",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "123aca2a-9b39-4d00-8a62-d82ebb5bfeb8",
+      "data": [
+        {
+          "text": "what was the daily calorie intake of ",
+          "userDefined": false
+        },
+        {
+          "text": "Canada",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "1970",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "40a4d192-434f-4db4-978b-16105cfe0fde",
+      "data": [
+        {
+          "text": "Daily calorie intake in ",
+          "userDefined": false
+        },
+        {
+          "text": "2000",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " for ",
+          "userDefined": false
+        },
+        {
+          "text": "Africa",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d5438293-0546-47ba-afce-35774309df85",
+      "data": [
+        {
+          "text": "Daily calorie intake in ",
+          "userDefined": false
+        },
+        {
+          "text": "2000",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        },
+        {
+          "text": " for ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2a7e4af8-53d6-43a6-8d5d-2b49b57ba3e3",
+      "data": [
+        {
+          "text": "what what was the daily calorie intake in ",
+          "userDefined": false
+        },
+        {
+          "text": "Australia",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "1970",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bb51af9c-8f12-4b24-bb33-51ddedbf7585",
+      "data": [
+        {
+          "text": "what was the daily calorie intake in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "1975",
+          "alias": "year",
+          "meta": "@year",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f2b14b94-4d71-42eb-ac78-0e42124bd4f8",
+      "data": [
+        {
+          "text": "Calorie supply in @location:location in @year:year?"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484085,
+      "isAuto": false
+    },
+    {
+      "id": "546c779a-9104-4004-b12d-b0eaf66c9ea4",
+      "data": [
+        {
+          "text": "What was the calorie supply of @location:location in @year:year?"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484085,
+      "isAuto": false
+    },
+    {
+      "id": "d726d80f-3c94-4f44-bb0f-e311cbf5f8d9",
+      "data": [
+        {
+          "text": "How much was the calory intake in @year:year in @location:location?"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484085,
+      "isAuto": false
+    },
+    {
+      "id": "9c533594-f29d-41a2-9cc8-c8dead3a41ca",
+      "data": [
+        {
+          "text": "What was the calory intake in @year:year of @location:location ?"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484085,
+      "isAuto": false
+    },
+    {
+      "id": "2bbbb521-cc9d-4cd2-90bb-81f76d641996",
+      "data": [
+        {
+          "text": "Daily calorie intake in @year:year for @location:location?"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484085,
+      "isAuto": false
+    },
+    {
+      "id": "aecb3537-c015-4397-bb65-4bdca593bafc",
+      "data": [
+        {
+          "text": "Daily calorie of @location:location for @year:year?"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484085,
+      "isAuto": false
+    },
+    {
+      "id": "a9c2aa52-cdfa-4c44-b12d-874fa0973414",
+      "data": [
+        {
+          "text": "Daily calory intake of @location:location  in @year:year?"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484085,
+      "isAuto": false
+    },
+    {
+      "id": "b0ad14c3-5b09-458d-a7d1-76031ad601b3",
+      "data": [
+        {
+          "text": "How much was the calory of @location:location for @year:year?"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484085,
+      "isAuto": false
+    },
+    {
+      "id": "44a6ff6c-1071-47ab-b8ac-ec01cac410d4",
+      "data": [
+        {
+          "text": "What was the calory intake of @location:location in @year:year?"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484085,
+      "isAuto": false
+    },
+    {
+      "id": "e81298b5-c135-4f9b-9ec6-644b9f731cc4",
+      "data": [
+        {
+          "text": "What was the calorie intake of @location:location for @year:year?"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536484085,
+      "isAuto": false
+    },
+    {
+      "id": "a3d386c9-e9ce-4b2d-8156-f411c07f2c3b",
+      "data": [
+        {
+          "text": "How much was the calorie intake of @sys.geo-country:country in @year:year?"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0,
+      "updated": 1536391038,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

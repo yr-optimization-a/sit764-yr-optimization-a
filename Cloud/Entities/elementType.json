@@ -1,0 +1,41 @@
+{
+  "id": "7855a734-021e-4535-8e7e-a83bd630acfb",
+  "name": "elementType",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Production",
+      "synonyms": [
+        "Production",
+        "Produce",
+        "production",
+        "produce",
+        "Produced",
+        "produced"
+      ]
+    },
+    {
+      "value": "Area harvested",
+      "synonyms": [
+        "Area harvested",
+        "Harvest",
+        "Harvested",
+        "harvest",
+        "harvested"
+      ]
+    },
+    {
+      "value": "Yield",
+      "synonyms": [
+        "Yield",
+        "Yeild",
+        "yield",
+        "Yeilds",
+        "Yields",
+        "yields"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

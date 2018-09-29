@@ -1,0 +1,200 @@
+{
+  "id": "f70636db-c521-4044-87bb-1044bc00806f",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I didn't get that. Can you say it again?",
+            "I missed what you said. What was that?",
+            "Sorry, could you say that again?",
+            "Sorry, can you say that again?",
+            "Can you say that again?",
+            "Sorry, I didn't get that. Can you rephrase?",
+            "Sorry, what was that?",
+            "One more time?",
+            "What was that?",
+            "Say that one more time?",
+            "I didn't get that. Can you repeat?",
+            "I missed that, say that again?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "userSays": [
+    {
+      "id": "c2ef0889-6dc7-4d3b-8cf7-54b769e3801c",
+      "data": [
+        {
+          "text": "Morocco"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "598e7cb2-8aaa-4e66-ae8a-fce013f9f2c1",
+      "data": [
+        {
+          "text": "can I know how much pumpkin Cup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "461981e8-e999-44d3-910d-247db3e42a54",
+      "data": [
+        {
+          "text": "Austria"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "aa7be418-8486-40de-9170-ad319caf959d",
+      "data": [
+        {
+          "text": "what does that moment of crop produced in"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "793d060c-ddf3-437c-a262-bb040e86354f",
+      "data": [
+        {
+          "text": "us"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "efe8a9d0-4a1f-4e93-bead-15d6962e5c12",
+      "data": [
+        {
+          "text": "production"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "isAuto": false
+    },
+    {
+      "id": "cd84f8eb-ed16-40bb-bd40-0694f9b2daab",
+      "data": [
+        {
+          "text": "Harvest"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6f6c9f9a-ed33-496d-87e9-8077cab20893",
+      "data": [
+        {
+          "text": "2016"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "isAuto": false
+    },
+    {
+      "id": "0ffb2b38-e7f3-403c-8ec5-40e116af985f",
+      "data": [
+        {
+          "text": "harvest"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c7392eb5-d1ab-4cd6-8131-86671349c15b",
+      "data": [
+        {
+          "text": "Dada from 2015"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5ea7f70f-3da2-41c1-9ddb-2dd9eb4611c7",
+      "data": [
+        {
+          "text": "what was the amount of oil in Argentina"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a91953a5-9795-46c0-bff7-24b327fdd8d3",
+      "data": [
+        {
+          "text": "can I know the amount of years in Argentina"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "391df676-d576-459b-93f2-eb7e55e5a57f",
+      "data": [
+        {
+          "text": "rice"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c6a2da85-5c6e-416b-96d8-0e1a29ff9a99",
+      "data": [
+        {
+          "text": "2015"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
